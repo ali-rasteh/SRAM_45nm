@@ -1,4 +1,6 @@
 Project abstract:
+
 SRAM is widely used in platforms like cache memory in microcontrollers and different types of processors, and is preferred for applications requiring high-speed or static memory circuits. SRAM cells are constructed with minimum-size transistors in advanced technology nodes to maximize density. However, as technology scales down, challenges like leakage current and process variations make designing low-power and high-speed SRAMs difficult, particularly at subthreshold or near-threshold voltages where the Ion/Ioff ratio significantly degrades.
 This thesis proposes a novel method to mitigate the impact of leakage current on SRAM operating speed in near-threshold voltage regions and high-temperature environments. The approach uses SRAM column leakage current compensation with precise current mirrors and dynamic calibration, addressing calibration timing and process variation issues. The method was simulated using TSMC 45nm technology files in HSPICE and Spectre. Results show improved maximum operating frequency and reduced minimum working voltage, enhancing SRAM performance in subthreshold and near-threshold regions.
+
 Keywords: SRAM, Leakage Current, Process Variations, Leakage Current Compensation
